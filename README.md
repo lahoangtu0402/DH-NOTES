@@ -19,7 +19,7 @@ Môn học (course)
 - `src/content/notes/<mã-môn>/*.md`: các bài của môn. Mỗi bài giảng ứng với **một chủ đề (một buổi học)**, đặt tên `chu-de-X-Y-....md`.
 - `_sources/<mã-môn>/book/`: sách, giáo trình. `_sources/<mã-môn>/chu-de/`: mỗi file là một chủ đề, tên dạng `Chuong1-CD11.pdf`. Thư mục `_sources/` **không bao giờ được đăng** (đã nằm trong `.gitignore`).
 
-Môn **Quản trị chiến lược** được sinh từ `_sources/quan-tri-chien-luoc/` và cập nhật hằng tuần theo buổi học (hiện có Chủ đề 1.1 và bài tập Chương 1). Doanh nghiệp nhỏ trong ví dụ là giả định để số liệu rõ ràng và dễ tính lại.
+Môn **Quản trị chiến lược** được sinh từ `_sources/quan-tri-chien-luoc/` và cập nhật hằng tuần theo buổi học (hiện có Chương 1 với Chủ đề 1.1 đến 1.5 và bài tập cuối chương). Doanh nghiệp nhỏ trong ví dụ là giả định để số liệu rõ ràng và dễ tính lại.
 
 ## Cập nhật hằng tuần
 
@@ -27,7 +27,7 @@ Môn **Quản trị chiến lược** được sinh từ `_sources/quan-tri-chie
 npm run sources                # chủ đề nào trong _sources đã/chưa có bài, kèm lệnh tạo bài
 ```
 
-Rồi sinh bài theo đúng thứ tự trong `PROMPTS.md` → "Quy trình sinh trang từ _sources".
+Các bước chi tiết khi thêm chủ đề hoặc thêm môn mới: xem `HUONG-DAN.md` (Phần A và B). Thứ tự prompt khi sinh bài: `PROMPTS.md` → "Quy trình sinh trang từ _sources".
 
 ## Chuẩn chất lượng được kiểm tra tự động
 

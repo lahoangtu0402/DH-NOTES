@@ -4,7 +4,7 @@ Cách dùng: sao chép **Prompt chung** vào AI, thay phần `[...]`, rồi đí
 
 ## Quy trình sinh trang từ _sources (làm đúng thứ tự)
 
-Mỗi môn: `_sources/<mã-môn>/book/` là sách, `_sources/<mã-môn>/chu-de/` là các chủ đề. **Một chủ đề = một buổi học = một bài giảng** (`type: lesson`). Mỗi chương có một **bài tập cuối chương**, được bổ sung mỗi khi chương có thêm chủ đề.
+Các lệnh và thao tác chi tiết cho từng bước: xem `HUONG-DAN.md` Phần A. Mỗi môn: `_sources/<mã-môn>/book/` là sách, `_sources/<mã-môn>/chu-de/` là các chủ đề. **Một chủ đề = một buổi học = một bài giảng** (`type: lesson`). Mỗi chương có một **bài tập cuối chương**, được bổ sung mỗi khi chương có thêm chủ đề.
 
 **Bước 0. Kiểm tra đầu vào.** Chạy `npm run sources -- <mã-môn>`. Mở file chủ đề và sách, xác nhận sách đúng là sách của môn (đọc bìa, mục lục). Nếu chương mới chưa có trong `chapters` của `src/content/courses/<mã-môn>.md` thì thêm vào.
 
