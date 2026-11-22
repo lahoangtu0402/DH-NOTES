@@ -8,7 +8,8 @@
     "dev": "astro dev",
     "build": "astro build && pagefind --site dist --exclude-selectors \".katex\"",
     "preview": "astro preview",
-    "new": "node scripts/new.mjs"
+    "new": "node scripts/new.mjs",
+    "sources": "node scripts/sources.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.3.6",

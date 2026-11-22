@@ -1,324 +1,334 @@
 ---
 title: "Bài tập cuối Chương 1"
-summary: "Năm bài tập luyện phân biệt chiến lược, chiến thuật, vận hành; đặt mục tiêu SMART; tính thị phần; viết sứ mệnh và tầm nhìn. Có lời giải chi tiết và trắc nghiệm tổng kết."
+summary: "Năm bài tập từ dễ đến khó: phân biệt chiến lược kinh doanh và quản trị chiến lược, xác định bốn nhóm quyết định chiến lược, tính thị phần và tăng trưởng, đánh giá mức hoàn thành mục tiêu, phân tích tình huống. Có lời giải chi tiết và trắc nghiệm tổng kết."
 course: quan-tri-chien-luoc
 chapter: chuong-1
 type: exercises
 level: beginner
 status: draft
-duration: 70
-tags: [bai-tap, chien-luoc, muc-tieu]
-prerequisites: [quan-tri-chien-luoc/bai-1-2-su-menh-tam-nhin-muc-tieu]
+visibility: public
+duration: 60
+tags: [bai-tap, chien-luoc, quan-tri-chien-luoc]
+source: "_sources/quan-tri-chien-luoc/chu-de/"
+sourceTitle: "Các chủ đề Chương 1 đã học: 1.1"
+prerequisites: [quan-tri-chien-luoc/chu-de-1-1-khai-niem-chien-luoc]
 order: 90
 ---
 
 ## Cách làm bài tập này
 
-1. **Tự làm trước**, viết ra giấy hoặc tệp riêng, ít nhất 10 phút mỗi bài.
-2. Kẹt thì mở **gợi ý**, chưa mở lời giải vội.
-3. Làm xong mới mở **lời giải** để so sánh. Nếu khác, tìm hiểu vì sao khác. Với bài có đáp án mở (như viết sứ mệnh), lời giải chỉ là **một cách làm tốt**, không phải đáp án duy nhất.
-4. Cuối trang có trắc nghiệm tổng kết chương.
+Bộ bài tập này hiện bao quát **Chủ đề 1.1** và sẽ được bổ sung khi Chương 1 có thêm chủ đề mới.
 
-Các doanh nghiệp trong bài là **giả định**.
+1. Tự làm trước, ít nhất 10 phút mỗi bài.
+2. Kẹt thì mở gợi ý.
+3. Làm xong mới mở lời giải để đối chiếu.
+
+Hai công thức dùng trong bài (số liệu đều là giả định):
+
+- **Thị phần** $= \dfrac{\text{Doanh thu doanh nghiệp}}{\text{Doanh thu cả thị trường}} \times 100\%$.
+- **Tốc độ tăng trưởng** $= \dfrac{\text{Năm nay} - \text{Năm trước}}{\text{Năm trước}} \times 100\%$, tức tăng bao nhiêu phần trăm so với năm trước.
 
 ## Phần A. Bài tập tự luận
 
-### Bài 1. Phân biệt chiến lược, chiến thuật, vận hành
+### Bài 1. Chiến lược kinh doanh hay quản trị chiến lược?
 
-Một chuỗi cửa hàng bán lẻ giả định có các quyết định sau. Hãy phân loại mỗi quyết định là **chiến lược**, **chiến thuật** hay **vận hành hằng ngày**, và giải thích ngắn gọn.
+Mỗi câu dưới đây mô tả **chiến lược kinh doanh** hay **quản trị chiến lược**? Giải thích ngắn.
 
-a) Quyết định trong 5 năm tới chỉ chuyên bán đồ dùng cho thú cưng, bỏ các ngành hàng khác.
-
-b) Tuần này giảm 20% cho khách mua từ hai sản phẩm trở lên.
-
-c) Kiểm tra tồn kho vào cuối mỗi ngày.
-
-d) Quyết định không bán trên các sàn thương mại điện tử để giữ hình ảnh cao cấp.
-
-e) Chạy quảng cáo mạng xã hội trong dịp Tết.
-
-f) Pha chế đúng công thức cho từng đơn hàng.
+1. "Phòng gym Năng Động chọn phục vụ nhân viên văn phòng, mở cửa từ 5 giờ sáng, có huấn luyện viên kèm riêng giá vừa phải."
+2. "Mỗi sáu tháng, ban giám đốc chuỗi nhà sách xem lại tầm nhìn, phân tích thói quen đọc sách điện tử, rồi quyết định đóng bớt cửa hàng và mở thêm kênh bán trực tuyến."
+3. "Hãng xe máy điện chọn bán cho sinh viên, giá rẻ, đổi pin tại các trạm gần trường."
+4. "Công ty đặt mục tiêu năm, giao chỉ tiêu cho từng phòng, cuối mỗi quý đo kết quả và điều chỉnh ngân sách."
 
 <details>
 <summary>Xem gợi ý</summary>
 
-Hỏi ba câu cho mỗi quyết định: Nó kéo dài bao lâu? Nó có chọn "làm gì và không làm gì" không? Ai thường quyết định (lãnh đạo cao cấp, quản lý bộ phận hay nhân viên)?
+Hỏi: câu này mô tả **các lựa chọn** (phục vụ ai, bán gì, vì sao khách chọn mình) hay một **quá trình lặp lại** có phân tích, quyết định, hành động, đánh giá?
 
 </details>
 
 <details>
 <summary>Xem lời giải chi tiết</summary>
 
-| Mục | Loại | Giải thích |
-| --- | --- | --- |
-| a | **Chiến lược** | Dài hạn (5 năm), chọn thu hẹp ngành hàng, tức chọn "làm gì và không làm gì". Do lãnh đạo cao cấp quyết định. |
-| b | **Chiến thuật** | Chỉ trong một tuần, là hành động cụ thể để thực hiện chiến lược (ví dụ để tăng giá trị mỗi đơn hàng). |
-| c | **Vận hành** | Việc lặp lại hằng ngày do nhân viên làm, nhằm giữ hoạt động trơn tru. |
-| d | **Chiến lược** | Chọn **không làm** một kênh bán để giữ hình ảnh. Có lựa chọn, ảnh hưởng dài hạn đến thương hiệu. |
-| e | **Chiến thuật** | Chiến dịch có thời hạn (dịp Tết), do quản lý marketing quyết định, thực hiện chiến lược thương hiệu. |
-| f | **Vận hành** | Công việc hằng ngày làm theo quy trình. |
+**Tiêu chí phân loại.** Chiến lược kinh doanh là *tập hợp các lựa chọn* để cạnh tranh trên thị trường. Quản trị chiến lược là *quá trình liên tục* phân tích, quyết định, hành động, đánh giá.
 
-**Cách nhớ:** chiến lược chọn "làm gì và không làm gì", chiến thuật chọn "làm thế nào" trong thời gian ngắn, vận hành là công việc lặp lại hằng ngày.
+1. Có thị trường mục tiêu (nhân viên văn phòng), dịch vụ (mở sớm, huấn luyện viên kèm), cách cạnh tranh (giá vừa phải): **chiến lược kinh doanh**.
+2. Có chu kỳ sáu tháng, có xem lại tầm nhìn, phân tích môi trường bên ngoài, quyết định và hành động: **quản trị chiến lược**.
+3. Có khách hàng (sinh viên), sản phẩm (xe máy điện giá rẻ), lợi thế (trạm đổi pin gần trường): **chiến lược kinh doanh**.
+4. Có đặt mục tiêu, triển khai (giao chỉ tiêu), đánh giá theo quý và điều chỉnh: **quản trị chiến lược**.
 
-**Lưu ý:** ranh giới đôi khi mờ. Điều quan trọng là bạn lập luận theo ba tiêu chí (thời gian, sự lựa chọn, cấp quyết định) chứ không phải đoán.
+**Đáp án:** 1 và 3 là chiến lược kinh doanh; 2 và 4 là quản trị chiến lược.
+
+**Bài học:** chữ "mỗi sáu tháng", "cuối mỗi quý", "xem lại", "điều chỉnh" là dấu hiệu của một quá trình liên tục, tức quản trị chiến lược.
 
 </details>
 
-### Bài 2. Viết lại mục tiêu theo SMART
+### Bài 2. Bốn nhóm quyết định của tiệm trà sữa Lá
 
-Tiệm bánh "Mỹ Lan" có mục tiêu: **"Làm khách hàng hài lòng hơn."** Khảo sát hiện tại cho thấy **70%** khách hàng hài lòng.
+Tiệm trà sữa **Lá** (giả định) mở gần một trường đại học. Chủ tiệm mô tả:
 
-a) Mục tiêu trên vi phạm những tiêu chí SMART nào?
+> "Khách của tụi mình chủ yếu là sinh viên. Tụi mình bán trà trái cây ít ngọt, ly vừa, giá khoảng 25.000 đồng. Khách chọn tụi mình vì ít ngọt, có chỗ ngồi học, và có ứng dụng tích điểm. Tụi mình lưu lịch sử gọi món của từng khách để gợi ý món mới đúng khẩu vị."
 
-b) Hãy viết lại thành một mục tiêu SMART hoàn chỉnh và nêu mức tăng.
+a) Xác định bốn nhóm quyết định trong chiến lược của tiệm Lá.
+
+b) Trong các lợi thế, cái nào **bền vững** hơn: "giá 25.000 đồng" hay "dữ liệu lịch sử gọi món của từng khách"? Vì sao?
 
 <details>
 <summary>Xem gợi ý</summary>
 
-Với mỗi chữ S, M, A, R, T, tự hỏi mục tiêu cũ đã trả lời câu hỏi chưa. Khi viết lại, hãy chọn một con số cụ thể cao hơn 70%, một hạn rõ ràng, và một cách thực hiện.
+Bốn câu hỏi: phục vụ ai, bán gì, vì sao khách chọn mình, giữ lợi thế lâu bằng cách nào. Với câu b), hỏi "đối thủ cần bao lâu và tốn bao nhiêu để làm giống hệt?".
 
 </details>
 
 <details>
 <summary>Xem lời giải chi tiết</summary>
 
-**Câu a). Kiểm tra từng tiêu chí.**
+**Câu a).**
 
-- **S (cụ thể):** chưa. "Hài lòng hơn" ở điểm nào: chất lượng bánh, thái độ phục vụ hay thời gian chờ?
-- **M (đo được):** chưa. Không có con số.
-- **A (khả thi):** không đánh giá được vì không có mức cụ thể.
-- **R (liên quan):** tạm ổn, hài lòng khách hàng liên quan đến sự phát triển của tiệm.
-- **T (thời hạn):** chưa. Không biết khi nào.
+| Nhóm quyết định | Tiệm Lá |
+| --- | --- |
+| Thị trường mục tiêu | Sinh viên trường đại học gần đó |
+| Sản phẩm, dịch vụ | Trà trái cây ít ngọt, ly vừa, có chỗ ngồi học |
+| Cách cạnh tranh | Ít ngọt, giá hợp túi tiền sinh viên, chỗ ngồi học, tích điểm |
+| Lợi thế cạnh tranh bền vững | Dữ liệu lịch sử gọi món để gợi ý đúng khẩu vị |
 
-Vậy mục tiêu cũ vi phạm **S, M, T** (và A không kiểm tra được).
+**Câu b).** Dữ liệu lịch sử gọi món **bền vững hơn**.
 
-**Câu b). Viết lại.** Một cách viết:
+- Giá 25.000 đồng: tiệm bên cạnh có thể hạ giá bằng hoặc thấp hơn ngay trong một ngày.
+- Dữ liệu khách hàng: phải tích lũy qua nhiều tháng, đối thủ không thể có ngay dù bỏ nhiều tiền.
 
-> "Tăng tỷ lệ khách hàng hài lòng trong khảo sát từ 70% lên 80% vào quý 4 năm 2027, thông qua đào tạo thái độ phục vụ cho toàn bộ nhân viên và rút ngắn thời gian chờ xuống dưới 5 phút."
+**Đáp án:** a) như bảng trên; b) dữ liệu lịch sử gọi món là lợi thế bền vững hơn.
 
-Kiểm tra:
-
-- **S:** nói rõ tỷ lệ hài lòng trong khảo sát và hai cách thực hiện.
-- **M:** từ 70% lên 80%.
-- **A:** tăng 10 điểm phần trăm trong khoảng một năm là mức hợp lý, tùy khả năng đào tạo thực tế.
-- **R:** phục vụ mục tiêu giữ chân khách quen.
-- **T:** quý 4 năm 2027.
-
-**Mức tăng:** từ 70% lên 80% là tăng **10 điểm phần trăm**. Mức tăng tương đối là $\dfrac{80 - 70}{70} \times 100\% \approx 14{,}3\%$. Hai cách nói này khác nhau, hãy nói rõ bạn đang dùng cách nào.
+**Bài học:** lợi thế càng khó sao chép, càng tốn thời gian để gây dựng thì càng bền vững.
 
 </details>
 
 ### Bài 3. Thị phần và tăng trưởng
 
-Số liệu thị trường bánh ngọt (giả định, đơn vị tỷ đồng):
+Số liệu thị trường trà sữa quanh trường (giả định, đơn vị tỷ đồng):
 
 | | Năm 2025 | Năm 2026 |
 | --- | --- | --- |
-| Tổng doanh thu thị trường | 400 | 460 |
-| Doanh thu của Mỹ Lan | 60 | 63 |
+| Tổng doanh thu thị trường | 5 | 6 |
+| Doanh thu tiệm Lá | 0,8 | 1,2 |
+| Doanh thu tiệm Mây (đối thủ) | 1,5 | 1,5 |
 
-a) Tính thị phần của Mỹ Lan mỗi năm (làm tròn một chữ số thập phân).
+a) Tính tốc độ tăng trưởng của thị trường, của tiệm Lá và tiệm Mây.
 
-b) Tính tốc độ tăng trưởng của thị trường và của Mỹ Lan.
+b) Tính thị phần của hai tiệm mỗi năm và thay đổi thị phần (theo điểm phần trăm).
 
-c) Mỹ Lan đang giành hay mất thị phần? Để giữ nguyên thị phần năm 2025, doanh thu năm 2026 phải đạt bao nhiêu?
+c) Tiệm nào đang có lợi thế cạnh tranh? Có thể kết luận đó là lợi thế **bền vững** chưa?
 
 <details>
 <summary>Xem gợi ý</summary>
 
-Thị phần = doanh thu doanh nghiệp chia tổng doanh thu thị trường. Tăng trưởng = (năm nay trừ năm trước) chia năm trước. Muốn giữ thị phần 15%, tính 15% của thị trường năm 2026.
+So tốc độ tăng của từng tiệm với tốc độ tăng của cả thị trường. Tiệm tăng chậm hơn thị trường thì thị phần sẽ giảm, dù doanh thu không đổi. Với câu c), nghĩ xem dữ liệu một năm đã đủ nói "giữ được lâu" chưa.
 
 </details>
 
 <details>
 <summary>Xem lời giải chi tiết</summary>
 
-**Câu a). Thị phần.**
+**Câu a). Tốc độ tăng trưởng.**
 
-- Năm 2025: $\dfrac{60}{400} \times 100\% = 15\%$.
-- Năm 2026: $\dfrac{63}{460} \times 100\% \approx 13{,}7\%$.
+- Thị trường: $\dfrac{6 - 5}{5} \times 100\% = 20\%$.
+- Tiệm Lá: $\dfrac{1{,}2 - 0{,}8}{0{,}8} \times 100\% = 50\%$.
+- Tiệm Mây: $\dfrac{1{,}5 - 1{,}5}{1{,}5} \times 100\% = 0\%$.
 
-**Câu b). Tăng trưởng.**
+**Câu b). Thị phần.**
 
-- Thị trường: $\dfrac{460 - 400}{400} \times 100\% = 15\%$.
-- Mỹ Lan: $\dfrac{63 - 60}{60} \times 100\% = 5\%$.
+| | 2025 | 2026 | Thay đổi |
+| --- | --- | --- | --- |
+| Tiệm Lá | $\dfrac{0{,}8}{5} = 16\%$ | $\dfrac{1{,}2}{6} = 20\%$ | tăng 4 điểm phần trăm |
+| Tiệm Mây | $\dfrac{1{,}5}{5} = 30\%$ | $\dfrac{1{,}5}{6} = 25\%$ | giảm 5 điểm phần trăm |
 
-**Câu c). Nhận xét.** Mỹ Lan tăng trưởng 5%, thấp hơn nhiều so với 15% của thị trường, nên thị phần giảm từ 15% xuống khoảng 13,7%, tức mất khoảng 1,3 điểm phần trăm. Dù doanh thu tăng từ 60 lên 63 tỷ đồng, Mỹ Lan đang **mất thị phần**, nghĩa là đối thủ đang tăng nhanh hơn.
+**Kiểm tra lại:** $20\%$ của 6 là $1{,}2$; $25\%$ của 6 là $1{,}5$. Khớp đề.
 
-**Doanh thu cần có để giữ thị phần 15%:** $15\% \times 460 = 69$ tỷ đồng. Thực tế chỉ đạt 63 tỷ đồng, thiếu 6 tỷ đồng so với mức "chỉ để không bị tụt lại".
+**Câu c). Nhận định.**
 
-**Bài học:** doanh thu tăng không đồng nghĩa với thắng. Luôn so với tốc độ tăng của thị trường. Kết quả này là tín hiệu để quay lại phân tích: vì sao khách chuyển sang đối thủ?
+- Tiệm Lá tăng 50%, nhanh hơn thị trường (20%), nên giành thêm thị phần: Lá **đang có lợi thế cạnh tranh**.
+- Tiệm Mây doanh thu không đổi nhưng **mất 5 điểm phần trăm thị phần**, vì thị trường lớn lên mà Mây đứng yên.
+- **Chưa thể kết luận lợi thế của Lá là bền vững** chỉ với số liệu một năm. Cần theo dõi thêm vài năm, và xem lợi thế của Lá (ví dụ dữ liệu khách hàng) có khó sao chép không.
+
+**Đáp án:** thị trường +20%, Lá +50%, Mây 0%; thị phần Lá 16% → 20% (+4 điểm phần trăm), Mây 30% → 25% (−5 điểm phần trăm). Lá đang có lợi thế, nhưng chưa đủ dữ liệu để nói là bền vững.
+
+**Bài học:** doanh thu không giảm chưa chắc là "ổn". Phải so với cả thị trường.
 
 </details>
 
-### Bài 4. Sửa sứ mệnh và tầm nhìn
+### Bài 4. Đánh giá mức hoàn thành mục tiêu
 
-Ban lãnh đạo Mỹ Lan viết:
+Đầu năm 2026, tiệm Lá đặt hai mục tiêu: doanh thu **1,4 tỷ đồng** và tỷ lệ khách quay lại **50%**. Cuối năm, kết quả là doanh thu **1,2 tỷ đồng** và tỷ lệ khách quay lại **40%**.
 
-> Sứ mệnh: "Trở thành công ty số 1 Việt Nam, tối đa hóa lợi nhuận, phục vụ mọi người."
->
-> Tầm nhìn: "Bán bánh ngọt."
+a) Tính mức độ hoàn thành từng mục tiêu (làm tròn một chữ số thập phân) và phần còn thiếu.
 
-a) Chỉ ra các lỗi của mỗi câu.
+b) Việc so sánh này thuộc giai đoạn nào của quá trình quản trị chiến lược? Bước tiếp theo là gì?
 
-b) Viết lại một câu sứ mệnh và một câu tầm nhìn tốt hơn cho tiệm bánh này (tự giả định thông tin hợp lý).
+c) Đề xuất hai điều chỉnh hợp lý cho năm sau.
 
 <details>
 <summary>Xem gợi ý</summary>
 
-Sứ mệnh tốt trả lời: làm gì, cho ai, giá trị gì. Tầm nhìn tốt nói về hình ảnh tương lai, có mốc thời gian, ngắn gọn, thực tế. Hãy đối chiếu hai câu trên với các tiêu chí đó.
+Mức hoàn thành = thực tế chia mục tiêu, nhân 100%. Phần thiếu của tỷ lệ khách quay lại tính bằng điểm phần trăm. Nhớ lại ba giai đoạn: hình thành, thực hiện, đánh giá.
 
 </details>
 
 <details>
 <summary>Xem lời giải chi tiết</summary>
 
-**Câu a). Lỗi của câu "sứ mệnh".**
+**Câu a).**
 
-- "Trở thành công ty số 1 Việt Nam" là **tầm nhìn** (đích đến), không phải sứ mệnh. Đây là lỗi nhầm hai khái niệm.
-- "Tối đa hóa lợi nhuận" chỉ nói kết quả tài chính, không nói tiệm tạo ra giá trị gì cho khách hàng.
-- "Phục vụ mọi người" quá chung chung, không giúp lựa chọn khách hàng mục tiêu.
-- Không nói rõ sản phẩm hoặc giá trị khác biệt.
+- Doanh thu: $\dfrac{1{,}2}{1{,}4} \times 100\% \approx 85{,}7\%$. Còn thiếu $1{,}4 - 1{,}2 = 0{,}2$ tỷ đồng.
+- Tỷ lệ khách quay lại: $\dfrac{40}{50} \times 100\% = 80\%$. Còn thiếu $50\% - 40\% = 10$ điểm phần trăm.
 
-**Lỗi của câu "tầm nhìn".** "Bán bánh ngọt" chỉ là mô tả công việc hiện tại, không có hình ảnh tương lai, không có mốc thời gian, không truyền cảm hứng. Nó giống sứ mệnh viết rất hẹp hơn là tầm nhìn.
+**Kiểm tra lại:** $85{,}7\%$ của 1,4 là khoảng $1{,}2$; $80\%$ của 50 là 40. Khớp đề.
 
-**Câu b). Một cách viết lại (giả định Mỹ Lan chuyên bánh ít đường).**
+**Câu b).** So kết quả với mục tiêu là giai đoạn **đánh giá, kiểm tra chiến lược**. Bước tiếp theo là **điều chỉnh**, rồi quay lại vòng mới: phân tích lại, đặt mục tiêu mới, thực hiện.
 
-> **Sứ mệnh:** "Mang đến những chiếc bánh ngọt tươi mỗi ngày, ít đường và làm từ nguyên liệu rõ nguồn gốc, để gia đình có thể thưởng thức ngon mà yên tâm."
->
-> **Tầm nhìn:** "Đến năm 2032, Mỹ Lan là thương hiệu bánh ngọt ít đường được các gia đình ở thành phố lớn tin chọn đầu tiên."
+**Câu c). Một cách làm tốt, không phải đáp án duy nhất.**
 
-**Kiểm tra lại.** Sứ mệnh trả lời đủ ba câu hỏi: làm gì (bánh tươi ít đường), cho ai (gia đình), giá trị gì (ngon mà yên tâm). Tầm nhìn có mốc (năm 2032), hình ảnh rõ (thương hiệu được tin chọn đầu tiên), ngắn gọn, nghe thực tế.
+1. Tìm nguyên nhân khách không quay lại (hỏi khách, xem đánh giá trên ứng dụng), ví dụ nếu khách chê chờ lâu thì thêm quầy nhận món đặt trước.
+2. Dùng dữ liệu lịch sử gọi món để gửi gợi ý món mới cho khách lâu chưa quay lại.
 
-**Lưu ý:** đáp án của bạn có thể khác về nội dung, miễn đạt các tiêu chí trên.
+**Tiêu chí đánh giá đề xuất:** (1) gắn với đúng chỉ tiêu chưa đạt; (2) dựa trên nguyên nhân, không đoán bừa; (3) khả thi với nguồn lực của một tiệm nhỏ; (4) đo được kết quả ở kỳ đánh giá sau.
+
+**Đáp án:** doanh thu đạt khoảng 85,7% (thiếu 0,2 tỷ đồng), tỷ lệ quay lại đạt 80% mục tiêu (thiếu 10 điểm phần trăm); đây là giai đoạn đánh giá, bước tiếp theo là điều chỉnh.
+
+**Bài học:** đánh giá không phải để "chấm điểm" rồi thôi, mà để biết cần điều chỉnh gì ở vòng tiếp theo.
 
 </details>
 
-### Bài 5. Đặt hoạt động vào đúng bước quản trị chiến lược
+### Bài 5. Tình huống: có chiến lược nhưng không quản trị chiến lược
 
-Quá trình quản trị chiến lược có 4 bước: (1) Xác định định hướng; (2) Phân tích môi trường và nội bộ; (3) Hình thành và chọn chiến lược; (4) Thực hiện và kiểm soát. Hãy xếp mỗi hoạt động sau của Mỹ Lan vào đúng bước:
+Năm 2023, chuỗi cửa hàng văn phòng phẩm **Bút Xanh** (giả định) có chiến lược rõ ràng: bán vở, bút cho học sinh qua 10 cửa hàng gần trường, giá rẻ, mở cửa sớm. Kết quả năm 2023 rất tốt.
 
-a) Họp xác định tầm nhìn và mục tiêu cho 5 năm tới.
+Từ năm 2024 đến 2026, ban giám đốc giữ nguyên mọi thứ, không họp xem lại. Trong thời gian đó, nhiều phụ huynh chuyển sang mua trên sàn thương mại điện tử, giao tận nhà. Doanh thu Bút Xanh giảm ba năm liền.
 
-b) Khảo sát khách hàng, đối thủ, xu hướng thị trường và liệt kê điểm mạnh, điểm yếu của tiệm.
+a) Bút Xanh có **chiến lược kinh doanh** không? Có **quản trị chiến lược** không? Giải thích.
 
-c) So sánh ba phương án (mở chi nhánh, bán bánh online, đổi mẫu mã) rồi chọn bán online.
+b) Chỉ ra bước nào trong quá trình quản trị chiến lược đã bị bỏ qua.
 
-d) Giao việc cho các bộ phận và lập ngân sách cho kênh bán online.
-
-e) Mỗi tháng theo dõi doanh thu online, thấy thấp hơn kế hoạch nên điều chỉnh quảng cáo.
-
-f) Nhận ra số người mua bánh qua mạng đang tăng nhanh.
+c) Đề xuất cách Bút Xanh nên làm từ năm 2027.
 
 <details>
 <summary>Xem gợi ý</summary>
 
-Hỏi: hoạt động này là đặt đích đến, nhìn tình hình, chọn cách đi, hay bắt tay làm và theo dõi? Chú ý hai hoạt động (d) và (e) cùng thuộc một bước.
+Kiểm tra bốn nhóm quyết định để trả lời câu "có chiến lược không". Với quản trị chiến lược, tìm xem có chữ "liên tục", "phân tích", "đánh giá", "điều chỉnh" nào xuất hiện sau năm 2023 không.
 
 </details>
 
 <details>
 <summary>Xem lời giải chi tiết</summary>
 
-| Hoạt động | Bước | Giải thích |
-| --- | --- | --- |
-| a | **Bước 1** | Đặt tầm nhìn và mục tiêu là xác định định hướng. |
-| b | **Bước 2** | Khảo sát khách hàng, đối thủ, xu hướng và đánh giá điểm mạnh, yếu là phân tích bên ngoài và nội bộ. |
-| c | **Bước 3** | So sánh các phương án và chọn một phương án là hình thành và lựa chọn chiến lược. |
-| d | **Bước 4** | Giao việc và lập ngân sách là chuyển chiến lược thành hành động (thực hiện). |
-| e | **Bước 4** | Theo dõi kết quả, so với kế hoạch và điều chỉnh là kiểm soát. |
-| f | **Bước 2** | Nhận ra xu hướng mua qua mạng tăng nhanh là phát hiện một **cơ hội** từ môi trường bên ngoài. |
+**Đây là một cách làm tốt, không phải đáp án duy nhất.**
 
-**Quan sát thêm:** hoạt động (e) cho thấy quản trị chiến lược là **vòng lặp**. Kết quả theo dõi có thể đưa doanh nghiệp quay lại phân tích lại (bước 2) nếu thấy chiến lược không hiệu quả.
+**Câu a).**
+
+- **Có chiến lược kinh doanh**: đủ bốn nhóm quyết định. Thị trường mục tiêu là học sinh; sản phẩm là vở, bút; cách cạnh tranh là giá rẻ, mở sớm; lợi thế là vị trí gần trường.
+- **Không có quản trị chiến lược** (từ 2024): không phân tích lại môi trường, không đánh giá, không điều chỉnh. Chiến lược được làm một lần rồi để yên.
+
+**Câu b).** Các bước bị bỏ qua:
+
+1. **Phân tích môi trường bên ngoài**: không nhận ra xu hướng mua trực tuyến, giao tận nhà.
+2. **Đánh giá, kiểm tra kết quả**: doanh thu giảm ba năm mà không ai xem lại.
+3. **Điều chỉnh kịp thời**: vì không đánh giá nên không điều chỉnh.
+
+Kết quả là lợi thế "gần trường" **không còn bền vững** khi khách không cần ra cửa hàng nữa.
+
+**Câu c). Đề xuất.**
+
+1. Đặt lịch họp xem lại chiến lược định kỳ, ví dụ mỗi quý, với các chỉ số như doanh thu, số khách, thị phần.
+2. Phân tích lại khách hàng: phụ huynh mua ở đâu, cần gì (giao nhanh, combo đầu năm học).
+3. Cân nhắc mở kênh bán trực tuyến kết hợp nhận hàng tại cửa hàng gần trường, tận dụng lợi thế vị trí sẵn có.
+
+**Tiêu chí đánh giá bài làm:** (1) phân biệt rõ "có chiến lược" và "có quản trị chiến lược"; (2) chỉ đúng các bước bị bỏ qua; (3) đề xuất có tính **liên tục** (định kỳ đánh giá), không chỉ là một thay đổi một lần; (4) đề xuất dựa trên thay đổi của môi trường đã nêu trong đề.
+
+**Đáp án:** Bút Xanh có chiến lược kinh doanh nhưng thiếu quản trị chiến lược; bỏ qua phân tích môi trường, đánh giá và điều chỉnh.
+
+**Bài học:** một chiến lược tốt cũng sẽ lỗi thời nếu không được quản trị liên tục.
 
 </details>
 
 ## Phần B. Trắc nghiệm tổng kết chương
 
-Phần này kiểm tra các ý chính của cả Chương 1. Với mỗi câu sai, hãy quay lại đúng mục trong Bài 1.1 hoặc Bài 1.2 để đọc lại.
-
 ````quiz
-Q: Điều nào dưới đây là chiến lược chứ không phải chiến thuật?
-- Giảm giá 20% trong tuần lễ khai trương
-+ Quyết định chỉ phục vụ phân khúc khách cao cấp trong 5 năm tới và không bán giảm giá
-- Đăng bài quảng cáo vào cuối tuần
-- Thay biển hiệu mới cho cửa hàng
-E: Chiến lược là lựa chọn dài hạn về khách hàng và cách cạnh tranh, có kèm việc chọn "không làm". Ba phương án còn lại là hành động ngắn hạn.
+Q: Bốn nhóm quyết định của một chiến lược kinh doanh gồm những gì?
++ Thị trường mục tiêu, sản phẩm/dịch vụ, cách cạnh tranh, lợi thế cạnh tranh bền vững
+- Lương, thưởng, phúc lợi, đào tạo
+- Doanh thu, chi phí, lợi nhuận, thuế
+- Tuyển dụng, sa thải, đánh giá, thăng chức
+E: Theo định nghĩa của Grant (2016), chiến lược gồm các quyết định về cách cạnh tranh, thị trường mục tiêu, sản phẩm/dịch vụ và cách tạo, giữ lợi thế cạnh tranh bền vững. Các phương án khác là nội dung của nhân sự hoặc tài chính.
 
-Q: Vì sao nói chiến lược "có sự lựa chọn"?
-- Vì doanh nghiệp được chọn đối thủ của mình
-+ Vì chọn làm việc này đồng nghĩa với việc không làm một số việc khác
-- Vì doanh nghiệp được chọn thị trường dễ nhất
-- Vì chiến lược phải có nhiều phương án
-E: Nguồn lực có hạn. Chiến lược buộc doanh nghiệp tập trung vào một số hướng và từ bỏ các hướng khác.
+Q: Dấu hiệu nào cho thấy một doanh nghiệp đang làm **quản trị chiến lược**?
+- Có một khẩu hiệu quảng cáo hay
++ Định kỳ phân tích, đánh giá kết quả và điều chỉnh chiến lược
+- Có nhiều cửa hàng hơn đối thủ
+- Bán giá thấp nhất thị trường
+E: Quản trị chiến lược là quá trình liên tục phân tích, quyết định, hành động và đánh giá. Khẩu hiệu, số cửa hàng hay giá thấp không cho biết doanh nghiệp có quá trình đó hay không.
 
-Q: Thứ tự đúng của các bước quản trị chiến lược là gì?
-- Thực hiện, phân tích, chọn chiến lược, xác định định hướng
-+ Xác định định hướng, phân tích, hình thành và chọn chiến lược, thực hiện và kiểm soát
-- Phân tích, thực hiện, xác định định hướng, chọn chiến lược
-- Chọn chiến lược, xác định định hướng, thực hiện, phân tích
-E: Cần biết đích đến, hiểu tình hình, chọn cách đi, rồi thực hiện và theo dõi.
+Q: Lợi thế nào dưới đây **bền vững nhất**?
+- Giảm giá 5.000 đồng trong tháng này
+- Treo băng rôn quảng cáo lớn hơn đối thủ
++ Dữ liệu khẩu vị của hàng nghìn khách quen tích lũy qua nhiều năm
+- Tặng ly miễn phí trong ngày khai trương
+E: Dữ liệu tích lũy nhiều năm thì đối thủ không thể có ngay. Giảm giá, băng rôn, quà khai trương đều bị sao chép rất nhanh.
 
-Q: Doanh thu thị trường 400 tỷ đồng, doanh nghiệp đạt 60 tỷ đồng. Thị phần là bao nhiêu?
-- 10%
-+ 15%
-- 20%
-- 6,7%
-E: $\frac{60}{400} \times 100\% = 15\%$.
+Q: Thị trường có doanh thu 6 tỷ đồng, một tiệm đạt 1,2 tỷ đồng. Thị phần của tiệm là bao nhiêu?
+- 12%
++ 20%
+- 50%
+- 5%
+E: $\dfrac{1{,}2}{6} \times 100\% = 20\%$.
 
-Q: Doanh thu tăng từ 60 lên 63 tỷ đồng. Tốc độ tăng trưởng là bao nhiêu?
-- 3%
-+ 5%
-- 10%
-- 6,3%
-E: $\frac{63 - 60}{60} \times 100\% = 5\%$. Chia cho giá trị năm trước.
+Q: Doanh thu một tiệm tăng từ 0,8 lên 1,2 tỷ đồng. Tốc độ tăng trưởng là bao nhiêu?
+- 40%
+- 33,3%
++ 50%
+- 150%
+E: $\dfrac{1{,}2 - 0{,}8}{0{,}8} \times 100\% = 50\%$. Chia cho giá trị **năm trước** (0,8), không chia cho năm nay; 150% là tỷ số $\frac{1{,}2}{0{,}8}$ chứ không phải mức tăng.
 
-Q: Thị trường tăng 15%, doanh nghiệp tăng 5%. Nhận định nào đúng?
-- Doanh nghiệp đang giành thị phần
-- Thị phần không đổi
-+ Doanh thu vẫn tăng nhưng thị phần giảm
-- Doanh nghiệp đang đứng đầu thị trường
-E: Tăng chậm hơn thị trường thì phần của doanh nghiệp trong tổng thị trường nhỏ lại.
+Q: Doanh thu tiệm Mây giữ nguyên 1,5 tỷ đồng trong khi thị trường tăng từ 5 lên 6 tỷ đồng. Điều gì xảy ra với thị phần của Mây?
+- Giữ nguyên 30%
++ Giảm từ 30% xuống 25%
+- Tăng từ 25% lên 30%
+E: $\frac{1{,}5}{5} = 30\%$ và $\frac{1{,}5}{6} = 25\%$. Thị trường lớn lên mà doanh thu đứng yên thì thị phần giảm 5 điểm phần trăm.
 
-Q: Câu nào là tầm nhìn?
-+ Đến năm 2032 trở thành thương hiệu bánh ít đường được các gia đình thành phố lớn tin chọn đầu tiên
-- Mang đến bánh tươi cho gia đình mỗi ngày
-- Tăng doanh thu lên 50 tỷ đồng vào năm 2027
-- Trung thực với khách hàng
-E: Có mốc thời gian xa và hình ảnh tương lai là tầm nhìn. Câu thứ hai là sứ mệnh, câu thứ ba là mục tiêu, câu cuối là giá trị cốt lõi.
+Q: Mục tiêu doanh thu 1,4 tỷ đồng, thực tế đạt 1,2 tỷ đồng. Mức hoàn thành mục tiêu xấp xỉ bao nhiêu?
+- 14,3%
++ 85,7%
+- 116,7%
+- 80%
+E: $\dfrac{1{,}2}{1{,}4} \times 100\% \approx 85{,}7\%$. 116,7% là chia ngược (1,4 chia 1,2); 14,3% là phần còn thiếu.
 
-Q: Sứ mệnh viết tốt thường trả lời những câu hỏi nào?
-- Doanh thu bao nhiêu, lợi nhuận bao nhiêu, bao giờ đạt
-+ Làm gì, phục vụ ai, mang lại giá trị gì
-- Đối thủ là ai, thị phần bao nhiêu, giá bán bao nhiêu
-- Có bao nhiêu nhân viên, bao nhiêu chi nhánh
-E: Ba câu hỏi này giúp sứ mệnh rõ ràng và giúp doanh nghiệp lựa chọn.
-
-Q: Mục tiêu "Tăng tỷ lệ khách hài lòng từ 70% lên 80% vào quý 4 năm 2027" thỏa tiêu chí nào trong SMART?
-- Chỉ tiêu chí cụ thể
-+ Đo được (có con số) và có thời hạn
-- Chỉ tiêu chí khả thi
-- Không thỏa tiêu chí nào
-E: Có con số (70% lên 80%) nên đo được, có mốc quý 4 năm 2027 nên có thời hạn. Khả thi và liên quan cần được kiểm tra thêm bằng phân tích.
-
-Q: Tỷ lệ hài lòng tăng từ 70% lên 80%. Cách nói nào chính xác?
-- Tăng 10%
-+ Tăng 10 điểm phần trăm
-- Tăng 80%
-- Tăng 7%
-E: Chênh lệch giữa hai tỷ lệ phần trăm gọi là điểm phần trăm. Mức tăng tương đối là 10/70, xấp xỉ 14,3%.
-
-Q: Hoạt động "theo dõi doanh thu hằng tháng và điều chỉnh quảng cáo khi thấp hơn kế hoạch" thuộc bước nào?
-- Xác định định hướng
-- Phân tích môi trường
+Q: So sánh kết quả thực tế với mục tiêu thuộc giai đoạn nào của quản trị chiến lược?
 - Hình thành chiến lược
-+ Thực hiện và kiểm soát
-E: Theo dõi kết quả so với kế hoạch và điều chỉnh là kiểm soát.
+- Thực hiện chiến lược
++ Đánh giá chiến lược
+E: Đánh giá chiến lược gồm đo kết quả, so với mục tiêu và điều chỉnh kịp thời.
 
-Q: Vì sao các mục tiêu của các bộ phận cần liên kết với nhau?
-- Để mọi bộ phận có cùng công việc
-+ Để nỗ lực của các bộ phận cùng đưa doanh nghiệp tới một đích, không triệt tiêu nhau
-- Để giảm số bộ phận
-- Để khỏi phải đo kết quả
-E: Nếu mục tiêu mâu thuẫn (ví dụ bán hàng chạy theo doanh số bất chấp giảm giá còn tài chính chạy theo lợi nhuận), doanh nghiệp bị kéo nhiều hướng.
+Q: Câu nào mô tả đúng **mối quan hệ** giữa chiến lược kinh doanh và quản trị chiến lược?
++ Chiến lược kinh doanh là kết quả của bước lựa chọn chiến lược, nằm bên trong quá trình quản trị chiến lược
+- Hai khái niệm không liên quan gì đến nhau
+- Quản trị chiến lược là một phần nhỏ của chiến lược kinh doanh
+E: Quản trị chiến lược là cả quá trình; lựa chọn chiến lược là một bước trong đó, và kết quả của bước này là chiến lược kinh doanh.
+
+Q: Theo bảng so sánh trong bài, **mục tiêu** của quản trị chiến lược là gì?
+- Thắng một chương trình khuyến mãi
++ Tạo ra và duy trì lợi thế cạnh tranh dài hạn cho toàn tổ chức
+- Giảm số lượng nhân viên
+- Thành công trong một tuần bán hàng
+E: Chiến lược kinh doanh hướng tới thành công trong một ngành cụ thể; quản trị chiến lược hướng tới lợi thế cạnh tranh **dài hạn** cho **toàn tổ chức**.
+
+Q: Chuỗi Bút Xanh có chiến lược tốt năm 2023 nhưng ba năm sau doanh thu giảm vì không xem lại khi khách chuyển sang mua trực tuyến. Bài học chính là gì?
+- Không nên có chiến lược ngay từ đầu
++ Chiến lược phải được quản trị liên tục: phân tích môi trường, đánh giá và điều chỉnh
+- Chỉ cần giảm giá là đủ để giữ khách
+- Cửa hàng gần trường luôn là lợi thế bền vững
+E: Môi trường thay đổi (mua trực tuyến) làm lợi thế "gần trường" yếu đi. Không đánh giá và điều chỉnh thì chiến lược tốt cũng lỗi thời.
+
+Q: Tỷ lệ khách quay lại mục tiêu là 50%, thực tế đạt 40%. Phần còn thiếu nói đúng là gì?
+- Thiếu 10%
++ Thiếu 10 điểm phần trăm, tức đạt 80% mục tiêu
+- Thiếu 20 điểm phần trăm
+- Thiếu 25%
+E: $50\% - 40\% = 10$ điểm phần trăm; mức hoàn thành $\frac{40}{50} = 80\%$. Nói "thiếu 10%" dễ gây hiểu nhầm, vì so với mục tiêu thì phần thiếu là 20%.
 ````

@@ -2,6 +2,29 @@
 
 Cách dùng: sao chép **Prompt chung** vào AI, thay phần `[...]`, rồi đính kèm tài liệu gốc (slide, giáo trình). Dán kết quả vào file tạo bởi `npm run new`. Luôn **đọc và kiểm tra lại**, nhất là công thức, số liệu và code, rồi mới đổi sang `public`.
 
+## Quy trình sinh trang từ _sources (làm đúng thứ tự)
+
+Mỗi môn: `_sources/<mã-môn>/book/` là sách, `_sources/<mã-môn>/chu-de/` là các chủ đề. **Một chủ đề = một buổi học = một bài giảng** (`type: lesson`). Mỗi chương có một **bài tập cuối chương**, được bổ sung mỗi khi chương có thêm chủ đề.
+
+**Bước 0. Kiểm tra đầu vào.** Chạy `npm run sources -- <mã-môn>`. Mở file chủ đề và sách, xác nhận sách đúng là sách của môn (đọc bìa, mục lục). Nếu chương mới chưa có trong `chapters` của `src/content/courses/<mã-môn>.md` thì thêm vào.
+
+**Bước 1. Bài giảng cho chủ đề mới.** Tạo file bằng lệnh mà `npm run sources` gợi ý (có `--chapter` và `--source`). Đặt tiêu đề `Chủ đề X.Y. <tên chủ đề>`, `order` = XY (ví dụ 1.2 → 12). Gửi cho AI, theo thứ tự:
+
+1. **Prompt chung** (chọn BÀI GIẢNG, tên bài = tên chủ đề),
+2. **Quy tắc định dạng**,
+3. **Bổ sung theo loại bài → Bài giảng**,
+4. **Bổ sung riêng cho môn quản trị kinh doanh**,
+
+kèm file chủ đề (nguồn chính) và phần sách tương ứng (nguồn bổ sung). Nội dung bài phải bám chủ đề của buổi học; định nghĩa, tác giả, ví dụ thực tế lấy từ file chủ đề.
+
+**Bước 2. Kiểm tra lại bài giảng.** Gửi prompt **Kiểm tra lại bản nháp của AI**, sửa theo góp ý, tự tính lại mọi con số và đáp án trắc nghiệm.
+
+**Bước 3. Bài tập cuối chương.** Nếu chương chưa có bài tập: `npm run new -- exercises <mã-môn> "Bài tập cuối Chương X" --chapter=chuong-X`. Gửi theo thứ tự: **Prompt chung** (chọn BÀI TẬP CUỐI CHƯƠNG) → **Quy tắc định dạng** → **Bổ sung → Bài tập cuối chương** → **Bổ sung môn kinh doanh**, kèm bài tập hiện có và các bài giảng của chương. Yêu cầu giữ bài cũ, thêm bài cho chủ đề mới, ghi ở mục "Cách làm bài tập này" các chủ đề đang được bao quát, cập nhật `sourceTitle`.
+
+**Bước 4. Kiểm tra lại bài tập** bằng prompt **Kiểm tra lại bản nháp của AI**.
+
+**Bước 5. Build.** `npm run sources -- <mã-môn>` phải hiện `[x]` cho mọi chủ đề, rồi `npm run build` phải qua (đủ 10 câu trắc nghiệm, đủ lời giải). Đối chiếu với tài liệu gốc xong thì đổi `status: reviewed`.
+
 ## Prompt chung
 
 ```text

@@ -5,6 +5,7 @@
  *   npm run new -- course   marketing-can-ban "Marketing căn bản"
  *   npm run new -- lesson   marketing-can-ban "Bài 1.1. Marketing là gì"
  *   npm run new -- exercises marketing-can-ban "Bài tập cuối Chương 1" --chapter=chuong-1
+ *   npm run new -- lesson quan-tri-chien-luoc "Chủ đề 1.2. ..." --chapter=chuong-1 --source=_sources/quan-tri-chien-luoc/chu-de/Chuong1-CD12.pdf
  *
  * Loại bài: lesson | exercises | reading | guide
  * Tùy chọn: --chapter=<mã-chương>  (mặc định chuong-1; phải khớp chapters[].id trong file môn học)
@@ -88,11 +89,16 @@ const dir = join(root, 'src/content/notes', courseId);
 const file = join(dir, `${slug}.md`);
 if (existsSync(file)) fail(`Bài đã tồn tại: ${file}`);
 
-const template = readFileSync(join(root, 'templates', `${kind}.md`), 'utf8')
+let template = readFileSync(join(root, 'templates', `${kind}.md`), 'utf8')
   .replaceAll('{{title}}', title.replaceAll('"', '\\"'))
   .replaceAll('{{course}}', courseId)
   .replaceAll('{{chapter}}', flags.chapter || 'chuong-1')
   .replaceAll('{{slug}}', slug);
+
+// --source=_sources/<môn>/chu-de/ChuongX-CDXY.pdf : ghi đường dẫn file gốc để `npm run sources` đối chiếu.
+if (flags.source) {
+  template = template.replace(/^(chapter: .*)$/m, `$1\nsource: ${JSON.stringify(flags.source)}`);
+}
 
 mkdirSync(dir, { recursive: true });
 writeFileSync(file, template);

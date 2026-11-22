@@ -16,10 +16,18 @@ Môn học (course)
 ```
 
 - `src/content/courses/*.md`: mỗi file một môn, khai báo danh sách chương.
-- `src/content/notes/<mã-môn>/*.md`: các bài của môn.
-- `_sources/`: nơi để file gốc (slide, PDF, đề thi). Thư mục này **không bao giờ được đăng** (đã nằm trong `.gitignore`).
+- `src/content/notes/<mã-môn>/*.md`: các bài của môn. Mỗi bài giảng ứng với **một chủ đề (một buổi học)**, đặt tên `chu-de-X-Y-....md`.
+- `_sources/<mã-môn>/book/`: sách, giáo trình. `_sources/<mã-môn>/chu-de/`: mỗi file là một chủ đề, tên dạng `Chuong1-CD11.pdf`. Thư mục `_sources/` **không bao giờ được đăng** (đã nằm trong `.gitignore`).
 
-Có sẵn môn mẫu **Quản trị chiến lược** (Chương 1 và 2 đầy đủ, Chương 3 và 4 sắp cập nhật) và 1 mục kỹ năng học. Doanh nghiệp trong ví dụ là giả định để số liệu rõ ràng và dễ tính lại.
+Môn **Quản trị chiến lược** được sinh từ `_sources/quan-tri-chien-luoc/` và cập nhật hằng tuần theo buổi học (hiện có Chủ đề 1.1 và bài tập Chương 1). Doanh nghiệp nhỏ trong ví dụ là giả định để số liệu rõ ràng và dễ tính lại.
+
+## Cập nhật hằng tuần
+
+```bash
+npm run sources                # chủ đề nào trong _sources đã/chưa có bài, kèm lệnh tạo bài
+```
+
+Rồi sinh bài theo đúng thứ tự trong `PROMPTS.md` → "Quy trình sinh trang từ _sources".
 
 ## Chuẩn chất lượng được kiểm tra tự động
 
