@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "short": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "kind": {
+      "default": "course",
+      "type": "string",
+      "enum": [
+        "course",
+        "library"
+      ]
+    },
+    "icon": {
+      "type": "string",
+      "enum": [
+        "strategy",
+        "briefcase",
+        "concept",
+        "research",
+        "data",
+        "book"
+      ]
+    },
+    "semester": {
+      "type": "string"
+    },
+    "order": {
+      "default": 100,
+      "type": "number"
+    },
+    "chapters": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "title"
+        ]
+      }
+    },
+    "$schema": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "title",
+    "short",
+    "description",
+    "icon"
+  ]
+}

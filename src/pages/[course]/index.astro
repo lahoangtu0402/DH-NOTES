@@ -1,0 +1,84 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import CourseIcon from '../../components/CourseIcon.astro';
+import NoteRow from '../../components/NoteRow.astro';
+import {
+  getCourses,
+  getNotesOfCourse,
+  groupByChapter,
+  latestUpdate,
+  formatDate,
+  quizCount,
+  url,
+} from '../../lib/content';
+
+export async function getStaticPaths() {
+  const courses = await getCourses();
+  return courses.map((course) => ({ params: { course: course.id }, props: { course } }));
+}
+
+const { course } = Astro.props;
+const notes = await getNotesOfCourse(course);
+const { Content } = await render(course);
+const upd = formatDate(latestUpdate(notes));
+const questions = notes.reduce((sum, n) => sum + quizCount(n), 0);
+const groups = groupByChapter(course, notes);
+---
+
+<Base title={course.data.title} description={course.data.description}>
+  <ol class="breadcrumb">
+    <li><a href={url('/')}>Trang chủ</a></li>
+    <li aria-current="page">{course.data.short}</li>
+  </ol>
+
+  <div class="page-head">
+    <CourseIcon name={course.data.icon} size={72} />
+    <div>
+      <h1>{course.data.title}</h1>
+      <p class="lede" style="margin-top:6px">
+        {course.data.description}
+        {upd && <> Cập nhật {upd}.</>}
+      </p>
+    </div>
+  </div>
+
+  <div class="prose" style="margin-top:28px;max-width:var(--measure)">
+    <Content />
+  </div>
+
+  <div class="section-head" style="margin-top:40px">
+    <h2>Nội dung môn học</h2>
+    <p>
+      {course.data.chapters.length} chương · {notes.length} bài{questions > 0 && <> · {questions} câu trắc nghiệm</>}
+    </p>
+  </div>
+
+  {
+    notes.length === 0 && groups.length === 0 ? (
+      <div class="empty">
+        Chưa có bài viết nào. Tạo bài đầu tiên bằng lệnh <code>npm run new -- lesson {course.id} "Tên bài"</code>.
+      </div>
+    ) : (
+      groups.map((g) => (
+        <section class="chapter" aria-labelledby={`ch-${g.id}`}>
+          <div class="chapter-head">
+            <h3 class="group-title" id={`ch-${g.id}`}>
+              {g.title}
+            </h3>
+            {g.summary && <p>{g.summary}</p>}
+          </div>
+          {g.notes.length === 0 ? (
+            <div class="empty">Chương này chưa có bài. Sắp cập nhật.</div>
+          ) : (
+            <ul class="note-list">
+              {g.notes.map((n) => (
+                <NoteRow note={n} />
+              ))}
+            </ul>
+          )}
+        </section>
+      ))
+    )
+  }
+</Base>
